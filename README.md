@@ -6,4 +6,4 @@ The install script will create a folder under '%USERPROFILE%\AppData\Local\s_r_h
 
 ---
 
-![screenshot](screenshot.png)
+![screenshot](zscreenshot.png)
