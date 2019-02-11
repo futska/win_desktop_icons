@@ -1,9 +1,5 @@
 @echo off
-REM powershell "$s=(New-Object -COM WScript.Shell).CreateShortcut('%USERPROFILE%\Desktop\%~n0.lnk');$s.TargetPath='%~f0';$s.Save()"
-REM 
-REM powershell "$s=(New-Object -COM WScript.Shell).CreateShortcut('%USERPROFILE%\Desktop\logoff.lnk');$s.TargetPath='%USERPROFILE%\AppData\Local\s_r_h_s_l_l\logoff.bat';$s.Save()"
-
-REM copy bat files and icons from current dir to '%USERPROFILE%\AppData\Local\s_r_h_s_l_l\'
+REM copy icons from current dir to '%USERPROFILE%\AppData\Local\s_r_h_s_l_l\'
 
 if not exist "%USERPROFILE%\AppData\Local\s_r_h_s_l_l" mkdir "%USERPROFILE%\AppData\Local\s_r_h_s_l_l"
 
