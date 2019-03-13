@@ -1,6 +1,6 @@
 # win_desktop_icons
 
-A batch/powershell script to create Windows desktop icons for shutdown, restart, hibernate, sleep, switch user, lock, and logoff.
+A batch/powershell script to create Windows desktop icons for shutdown, restart, hibernate, sleep, switch user, lock, logoff, and control panel.
 
 Installation
 ----
