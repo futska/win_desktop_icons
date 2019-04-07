@@ -51,7 +51,7 @@ $ShortCut.WorkingDirectory = '%%SystemRoot%%\system32';^
 $ShortCut.WindowStyle = 1;^
 $ShortCut.Hotkey = 'CTRL+SHIFT+U';^
 $ShortCut.IconLocation = '%%USERPROFILE%%\AppData\Local\chllrsss\switchuser.ico, 0';^
-$ShortCut.Description = 'Lock workstation';^
+$ShortCut.Description = 'Switch user';^
 $ShortCut.Save()
 
 REM sleep
@@ -116,7 +116,7 @@ $ShortCut.WorkingDirectory = '%%windir%%\system32';^
 $ShortCut.WindowStyle = 1;^
 $ShortCut.Hotkey = 'CTRL+SHIFT+C';^
 $ShortCut.IconLocation = '%%USERPROFILE%%\AppData\Local\chllrsss\control_panel.ico, 0';^
-$ShortCut.Description = 'Shutdown the computer';^
+$ShortCut.Description = 'Control panel';^
 $ShortCut.Save()
 
 pause
