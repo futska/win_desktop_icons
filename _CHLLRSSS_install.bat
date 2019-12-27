@@ -23,7 +23,7 @@ $ShortCut.TargetPath='%%SystemRoot%%\System32\shutdown.exe';^
 $ShortCut.Arguments='/l';^
 $ShortCut.WorkingDirectory = '%%SystemRoot%%\system32';^
 $ShortCut.WindowStyle = 1;^
-$ShortCut.Hotkey = 'CTRL+SHIFT+L';^
+$ShortCut.Hotkey = 'CTRL+SHIFT+ALT+L';^
 $ShortCut.IconLocation = '%%USERPROFILE%%\AppData\Local\chllrsss\logoff.ico, 0';^
 $ShortCut.Description = 'Logoff current user';^
 $ShortCut.Save()
@@ -36,7 +36,7 @@ $ShortCut.TargetPath='%%SystemRoot%%\System32\rundll32.exe';^
 $ShortCut.Arguments='User32.dll,LockWorkStation';^
 $ShortCut.WorkingDirectory = '%%SystemRoot%%\system32';^
 $ShortCut.WindowStyle = 1;^
-$ShortCut.Hotkey = 'CTRL+SHIFT+K';^
+$ShortCut.Hotkey = 'CTRL+SHIFT+ALT+K';^
 $ShortCut.IconLocation = '%%USERPROFILE%%\AppData\Local\chllrsss\lock.ico, 0';^
 $ShortCut.Description = 'Lock workstation';^
 $ShortCut.Save()
@@ -49,7 +49,7 @@ $ShortCut.TargetPath='%%SystemRoot%%\System32\tsdiscon.exe';^
 $ShortCut.Arguments='';^
 $ShortCut.WorkingDirectory = '%%SystemRoot%%\system32';^
 $ShortCut.WindowStyle = 1;^
-$ShortCut.Hotkey = 'CTRL+SHIFT+U';^
+$ShortCut.Hotkey = 'CTRL+SHIFT+ALT+U';^
 $ShortCut.IconLocation = '%%USERPROFILE%%\AppData\Local\chllrsss\switchuser.ico, 0';^
 $ShortCut.Description = 'Switch user';^
 $ShortCut.Save()
@@ -62,7 +62,7 @@ $ShortCut.TargetPath='%%SystemRoot%%\System32\rundll32.exe';^
 $ShortCut.Arguments='powrprof.dll,SetSuspendState 0,1,0';^
 $ShortCut.WorkingDirectory = '%%SystemRoot%%\system32';^
 $ShortCut.WindowStyle = 1;^
-$ShortCut.Hotkey = 'CTRL+SHIFT+S';^
+$ShortCut.Hotkey = 'CTRL+SHIFT+ALT+S';^
 $ShortCut.IconLocation = '%%USERPROFILE%%\AppData\Local\chllrsss\sleep.ico, 0';^
 $ShortCut.Description = 'Sleep';^
 $ShortCut.Save()
@@ -75,7 +75,7 @@ $ShortCut.TargetPath='%%SystemRoot%%\System32\rundll32.exe';^
 $ShortCut.Arguments='powrprof.dll,SetSuspendState';^
 $ShortCut.WorkingDirectory = '%%SystemRoot%%\system32';^
 $ShortCut.WindowStyle = 1;^
-$ShortCut.Hotkey = 'CTRL+SHIFT+H';^
+$ShortCut.Hotkey = 'CTRL+SHIFT+ALT+H';^
 $ShortCut.IconLocation = '%%USERPROFILE%%\AppData\Local\chllrsss\hibernate.ico, 0';^
 $ShortCut.Description = 'Hibernate';^
 $ShortCut.Save()
@@ -88,7 +88,7 @@ $ShortCut.TargetPath='%%SystemRoot%%\System32\shutdown.exe';^
 $ShortCut.Arguments='/r /t 00';^
 $ShortCut.WorkingDirectory = '%%SystemRoot%%\system32';^
 $ShortCut.WindowStyle = 1;^
-$ShortCut.Hotkey = 'CTRL+SHIFT+R';^
+$ShortCut.Hotkey = 'CTRL+SHIFT+ALT+R';^
 $ShortCut.IconLocation = '%%USERPROFILE%%\AppData\Local\chllrsss\restart.ico, 0';^
 $ShortCut.Description = 'Restart the computer';^
 $ShortCut.Save()
@@ -101,7 +101,7 @@ $ShortCut.TargetPath='%%SystemRoot%%\System32\shutdown.exe';^
 $ShortCut.Arguments='/s /t 00';^
 $ShortCut.WorkingDirectory = '%%SystemRoot%%\system32';^
 $ShortCut.WindowStyle = 1;^
-$ShortCut.Hotkey = 'CTRL+SHIFT+D';^
+$ShortCut.Hotkey = 'CTRL+SHIFT+ALT+D';^
 $ShortCut.IconLocation = '%%USERPROFILE%%\AppData\Local\chllrsss\shutdown.ico, 0';^
 $ShortCut.Description = 'Shutdown the computer';^
 $ShortCut.Save()
@@ -114,7 +114,7 @@ $ShortCut.TargetPath='%%windir%%\system32\control.exe';^
 $ShortCut.Arguments='';^
 $ShortCut.WorkingDirectory = '%%windir%%\system32';^
 $ShortCut.WindowStyle = 1;^
-$ShortCut.Hotkey = 'CTRL+SHIFT+C';^
+$ShortCut.Hotkey = 'CTRL+SHIFT+ALT+C';^
 $ShortCut.IconLocation = '%%USERPROFILE%%\AppData\Local\chllrsss\control_panel.ico, 0';^
 $ShortCut.Description = 'Control panel';^
 $ShortCut.Save()
