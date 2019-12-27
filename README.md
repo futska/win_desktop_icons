@@ -12,14 +12,14 @@ The install script will create a folder under '%USERPROFILE%\AppData\Local\chllr
 Hotkeys
 ----
 
-    logoff        CTRL+SHIFT+L
-    lock          CTRL+SHIFT+K
-    switch user   CTRL+SHIFT+U
-    sleep         CTRL+SHIFT+S
-    hibernate     CTRL+SHIFT+H
-    restart       CTRL+SHIFT+R
-    shutdown      CTRL+SHIFT+D
-    control panel CTRL+SHIFT+C
+    logoff        CTRL+SHIFT+ALT+L
+    lock          CTRL+SHIFT+ALT+K
+    switch user   CTRL+SHIFT+ALT+U
+    sleep         CTRL+SHIFT+ALT+S
+    hibernate     CTRL+SHIFT+ALT+H
+    restart       CTRL+SHIFT+ALT+R
+    shutdown      CTRL+SHIFT+ALT+D
+    control panel CTRL+SHIFT+ALT+C
 
 Screenshot
 ----
